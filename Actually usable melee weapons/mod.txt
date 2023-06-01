@@ -1,0 +1,13 @@
+{
+	"name": "Actually Usable melee weapons",
+	"description": "Actually Usable melee weapons",
+	"author": "The Niko",
+	"version": "1.0",
+	"blt_version": 2,
+	"hooks": [
+		{
+			"hook_id": "lib/tweak_data/blackmarket/meleeweaponstweakdata",
+			"script_path": "meleeweaponstweakdata.lua"
+		}
+	]
+}
