@@ -1,24 +1,9 @@
 Hooks:PostHook(BlackMarketTweakData, "_init_melee_weapons", "poop", function (self)
-  self.melee_weapons.shock.expire_t = 0.6
-  self.melee_weapons.spatula.expire_t = 0.6
-  self.melee_weapons.tenderizer.expire_t = 0.6
-  self.melee_weapons.swagger.expire_t = 0.6
-  self.melee_weapons.moneybundle.expire_t = 0.6
   self.melee_weapons.shawn.expire_t = 1.0
-  self.melee_weapons.microphone.expire_t = 0.6
-  self.melee_weapons.oldbaton.expire_t = 0.6
   self.melee_weapons.ballistic.expire_t = 1.0
   self.melee_weapons.wing.expire_t = 0.8
-  self.melee_weapons.branding_iron.expire_t = 0.6
-  self.melee_weapons.detector.expire_t = 0.6
-  self.melee_weapons.bullseye.expire_t = 0.6
-  self.melee_weapons.model24.expire_t = 0.6
-  self.melee_weapons.meat_cleaver.expire_t = 0.6
   self.melee_weapons.pitchfork.expire_t = 1.0
-  self.melee_weapons.shillelagh.expire_t = 0.6
   self.melee_weapons.stick.expire_t = 1.2
-  self.melee_weapons.morning.expire_t = 0.6
-  self.melee_weapons.whiskey.expire_t = 0.6
   self.melee_weapons.fireaxe.expire_t = 1.4
   self.melee_weapons.taser.expire_t = 0.9
   
@@ -90,6 +75,7 @@ local stats = {
 	  max_damage_effect = 1,
 	  range = 250,
 	  charge_time = 4,
+	  expire_t = 0.6,
 	  repeat_expire_t = 0.8,
 	  concealment = 30,
   },
@@ -102,7 +88,22 @@ local stats = {
 	  max_damage_effect = 1,
 	  range = 250,
 	  charge_time = 4,
+	  expire_t = 0.6,
 	  repeat_expire_t = 0.8,
+	  concealment = 30,
+  },
+  },
+  
+    melee_stab = {
+    stats = {
+	  min_damage = 5,
+	  max_damage = 30,
+	  min_damage_effect = 1,
+	  max_damage_effect = 1,
+	  range = 200,
+	  charge_time = 2,
+	  expire_t = 1,
+	  repeat_expire_t = 0.3,
 	  concealment = 30,
   },
   },
