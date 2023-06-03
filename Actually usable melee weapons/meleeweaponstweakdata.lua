@@ -1,10 +1,24 @@
 Hooks:PostHook(BlackMarketTweakData, "_init_melee_weapons", "poop", function (self)
+  self.melee_weapons.shock.expire_t = 0.6
+  self.melee_weapons.spatula.expire_t = 0.6
+  self.melee_weapons.tenderizer.expire_t = 0.6
+  self.melee_weapons.swagger.expire_t = 0.6
+  self.melee_weapons.moneybundle.expire_t = 0.6
   self.melee_weapons.shawn.expire_t = 1.0
+  self.melee_weapons.microphone.expire_t = 0.6
+  self.melee_weapons.oldbaton.expire_t = 0.6
   self.melee_weapons.ballistic.expire_t = 1.0
   self.melee_weapons.wing.expire_t = 0.8
+  self.melee_weapons.branding_iron.expire_t = 0.6
+  self.melee_weapons.detector.expire_t = 0.6
+  self.melee_weapons.bullseye.expire_t = 0.6
+  self.melee_weapons.model24.expire_t = 0.6
+  self.melee_weapons.meat_cleaver.expire_t = 0.6
   self.melee_weapons.pitchfork.expire_t = 1.0
+  self.melee_weapons.shillelagh.expire_t = 0.6
   self.melee_weapons.stick.expire_t = 1.2
-  self.melee_weapons.fireaxe.expire_t = 1.4
+  self.melee_weapons.morning.expire_t = 0.6
+  self.melee_weapons.whiskey.expire_t = 0.6
   self.melee_weapons.taser.expire_t = 0.9
   
   ---do not let this go in a public versin, its the OP4 knife with shank stuff
@@ -25,12 +39,6 @@ Hooks:PostHook(BlackMarketTweakData, "_init_melee_weapons", "poop", function (se
     }
   self.melee_weapons.bayonet.repeat_expire_t = 0.3
   self.melee_weapons.bayonet.expire_t = 1
-  self.melee_weapons.bayonet.stats.charge_time = 2
-  self.melee_weapons.bayonet.stats.min_damage = 3
-  self.melee_weapons.bayonet.stats.max_damage = 8
-  self.melee_weapons.bayonet.stats.min_damage_effect = 1
-  self.melee_weapons.bayonet.stats.max_damage_effect = 1
-  self.melee_weapons.bayonet.stats.range = 200
   
 ---Gerber  
   self.melee_weapons.gerber.repeat_expire_t = 0.3
